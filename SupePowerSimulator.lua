@@ -24,19 +24,19 @@ end
 	end
 	end)
 
-AutofarmsCat:Cheat("Checkbox","Auto Strength", function(sate)
+AutofarmsCat:Cheat("Checkbox","Auto Endurance", function(state)
 		if state then
-_G.autoStrength = true
+_G.autoStren = true
 
-while _G.autoStrength == true do wait(0.5)
+while _G.autoStren == true do wait(0.5)
 local A_1 = "Strength"
 local Event = game:GetService("ReplicatedStorage").Events.Train
 Event:FireServer(A_1)
 end
      else
-      _G.autoStrength = false
-end
-end)
+      _G.autoStren = false
+			end
+			end)
 		
 AutofarmsCat:Cheat("Checkbox","Auto Endurance", function(state)
 		if state then
@@ -120,7 +120,7 @@ end, {
 	}
 })
 
-TeleportsCat:Cheat("Dropdown", "Strengh Zones", function(Option)
+TeleportsCat:Cheat("Dropdown", "Endurance Zones", function(Option)
 	if Option == "Ambulance" then
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-761.988831, 79.9294281, -628.8703, 0.999974966, 0.00707819965, -4.79652517e-05, -0.00707819965, 0.999883115, -0.0135521628, -4.79652517e-05, 0.0135521628, 0.999908149)
 			end
