@@ -118,3 +118,38 @@ end, {
 		"Police"
 	}
 })
+
+TeleportsCat:Cheat("Dropdown", "Strengh Zones", function(Option)
+	if Option == "Ambulance" then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-761.988831, 79.9294281, -628.8703, 0.999974966, 0.00707819965, -4.79652517e-05, -0.00707819965, 0.999883115, -0.0135521628, -4.79652517e-05, 0.0135521628, 0.999908149)
+			end
+		if Option == "Gym" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-747.975037, 70.2737198, -399.940186, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+			end
+		if Option == "Bunker" then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(245.437164, 68.8567352, -312.569763, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+			end
+		if Option == "Crates"  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(193.503098, 60.3471756, -222.257751, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+			end
+		if Option == "Factory"  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-631.828735, 81.4721222, -34.80476, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+			end
+		if Option == "Toxic Factory"  then
+			gameToxic Factory.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-731.448425, 79.0623398, -52.6747513, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+			end
+		if Option == "Sand"  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1521.15637, 58.5062027, -1990.9646, 0.258864343, 0, 0.965913713, 0, 1, 0, -0.965913713, 0, 0.258864343)
+			end
+		
+end, {
+	options = {
+		"Ambulance",
+		"Gym",
+		"Bunker",
+		"Crates",
+		"Factory",
+		"Toxic Factory",
+		"Sand"
+	}
+})
