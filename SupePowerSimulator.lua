@@ -19,7 +19,7 @@ local Event = game:GetService("ReplicatedStorage").Events.Quest
 Event:FireServer(A_1)
 end
      else
-      _G.spamquests = true
+      _G.spamquests = false
 	end
 	end)
 
@@ -33,7 +33,7 @@ local Event = game:GetService("ReplicatedStorage").Events.Train
 Event:FireServer(A_1)
 end
      else
-      _G.autoStrength = true
+      _G.autoStrength = false
 end
 end)
 		
@@ -47,7 +47,7 @@ local Event = game:GetService("ReplicatedStorage").Events.Train
 Event:FireServer(A_1)
 end
      else
-      _G.autoEndurance = true
+      _G.autoEndurance = false
 			end
 			end)
 			
@@ -61,7 +61,7 @@ local Event = game:GetService("ReplicatedStorage").Events.Train
 Event:FireServer(A_1)
 end
      else
-      _G.autoPsychic = true
+      _G.autoPsychic = false
 				end
 				end)
 
