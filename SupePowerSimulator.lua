@@ -21,3 +21,42 @@ end
      else
       _G.spamquests = true
 end)
+
+AutofarmsCat:Cheat("Checkbox","Auto Strength", function(State)
+		if state then
+_G.autoStrength = true
+
+while _G.autoStrength == true do wait(0.5)
+local A_1 = "Strength"
+local Event = game:GetService("ReplicatedStorage").Events.Train
+Event:FireServer(A_1)
+end
+     else
+      _G.autoStrength = true
+end)
+		
+AutofarmsCat:Cheat("Checkbox","Auto Endurance", function(State)
+		if state then
+_G.autoEndurance = true
+
+while _G.autoEndurance == true do wait(0.5)
+local A_1 = "Endurance"
+local Event = game:GetService("ReplicatedStorage").Events.Train
+Event:FireServer(A_1)
+end
+     else
+      _G.autoEndurance = true
+end)
+			
+AutofarmsCat:Cheat("Checkbox","Auto Psychic", function(State)
+		if state then
+_G.autoPsychic = true
+
+while _G.autoPsychic == true do wait(0.5)
+local A_1 = "Psychic"
+local Event = game:GetService("ReplicatedStorage").Events.Train
+Event:FireServer(A_1)
+end
+     else
+      _G.autoPsychic = true
+end)
