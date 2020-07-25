@@ -1,3 +1,5 @@
+local Finity = loadstring(game:HttpGet("http://finity.vip/scripts/finity_lib.lua"))()
+
 local FinityWindow = Finity.new(true)
 FinityWindow.ChangeToggleKey(Enum.KeyCode.Semicolon)
 
