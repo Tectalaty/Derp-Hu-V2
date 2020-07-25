@@ -8,6 +8,7 @@ local CreditsCategory = FinityWindow:Category("Credits")
 
 local AutofarmsCat = FunctionsCategory:Sector("Autofarms")
 local TeleportsCat = FunctionsCategory:Sector("Teleports")
+local StatsCat = FunctionsCategory:Sector("Auto Buy Stats")
 
 AutofarmsCat:Cheat("Checkbox","Spam Quest", function(state)
 		if state then
@@ -65,7 +66,7 @@ end
 				end
 				end)
 
-TeleportsCat:Cheat("Dropdown", "Strengh Zones", function(Option)
+TeleportsCat:Cheat("Dropdown", "Strength Zones", function(Option)
 	if Option == "Rock" then
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-285.864227, 82.4834747, -141.479584, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 			end
@@ -172,3 +173,59 @@ end, {
 		"Prison Pool"
 	}
 })
+
+StatsCat:Cheat("Checkbox","Auto Buy Endurance", function(state)
+		if state then
+_G.AutoBuyEndurance = true
+
+while _G.AutoBuyEndurance == true do wait()
+local A_1 = "EnduranceMultiplier"
+local Event = game:GetService("ReplicatedStorage").Functions.Multiplier
+Event:InvokeServer(A_1)
+end
+     else
+      _G.AutoBuyEndurance = false
+	end
+end)
+
+StatsCat:Cheat("Checkbox","Auto Buy Strength", function(state)
+		if state then
+_G.StrengthMultiplier = true
+
+while _G.StrengthMultiplier == true do wait()
+local A_1 = "StrengthMultiplier"
+local Event = game:GetService("ReplicatedStorage").Functions.Multiplier
+Event:InvokeServer(A_1)
+end
+     else
+      _G.StrengthMultiplier = false
+	end
+end)
+
+StatsCat:Cheat("Checkbox","Auto Buy Psychic", function(state)
+		if state then
+_G.PsychicMultiplier = true
+
+while _G.PsychicMultiplier == true do wait()
+local A_1 = "PsychicMultiplier"
+local Event = game:GetService("ReplicatedStorage").Functions.Multiplier
+Event:InvokeServer(A_1)
+end
+     else
+      _G.PsychicMultiplier = false
+	end
+end)
+
+StatsCat:Cheat("Checkbox","Auto Buy Speed", function(state)
+		if state then
+_G.SpeedMultiplier = true
+
+while _G.SpeedMultiplier == true do wait()
+local A_1 = "SpeedMultiplier"
+local Event = game:GetService("ReplicatedStorage").Functions.Multiplier
+Event:InvokeServer(A_1)
+end
+     else
+      _G.SpeedMultiplier = false
+	end
+end)
