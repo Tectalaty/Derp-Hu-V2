@@ -24,7 +24,7 @@ end
 	end
 	end)
 
-AutofarmsCat:Cheat("Checkbox","Auto Endurance", function(state)
+AutofarmsCat:Cheat("Checkbox","Auto Strength", function(state)
 		if state then
 _G.autoStren = true
 
