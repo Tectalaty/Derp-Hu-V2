@@ -136,8 +136,8 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-747.975
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-631.828735, 81.4721222, -34.80476, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 			end
 		if Option == "Toxic Factory"  then
-			gameToxic Factory.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-731.448425, 79.0623398, -52.6747513, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-			end
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-731.448425, 79.0623398, -52.6747513, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	end
 		if Option == "Sand"  then
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1521.15637, 58.5062027, -1990.9646, 0.258864343, 0, 0.965913713, 0, 1, 0, -0.965913713, 0, 0.258864343)
 			end
