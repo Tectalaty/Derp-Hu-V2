@@ -1,7 +1,7 @@
-local FinityWindow = Finity.new(true)
-FinityWindow.ChangeToggleKey(Enum.KeyCode.Semicolon)
+local x = game.PlaceId
 
-local FunctionsCategory = FinityWindow:Category("Functions")
-local CreditsCategory = FinityWindow:Category("Credits")
+local SlimeTycoon = 3596472165
 
-local AutofarmsCat = FunctionsCategory:Sector("Autofarms")
+if x == SlimeTycoon then
+  local Finity = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tectalaty/Derp-Hu-V2/master/FinityUILib"))()
+end
