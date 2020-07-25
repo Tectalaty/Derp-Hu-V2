@@ -70,7 +70,7 @@ TeleportsCat:Cheat("Dropdown", "Strengh Zones", function(Option)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-285.864227, 82.4834747, -141.479584, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 			end
 		if Option == "Punching_Bag" then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-285.864227, 82.4834747, -141.479584, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-782.795593, 73.7816238, -350.892303, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 			end
 		if Option == "Car" then
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-139.489044, 81.5691605, -425.562592, -1, 0, 0, 0, 1, 0, 0, 0, -1)
