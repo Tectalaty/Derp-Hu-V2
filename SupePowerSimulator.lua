@@ -9,7 +9,7 @@ local CreditsCategory = FinityWindow:Category("Credits")
 local AutofarmsCat = FunctionsCategory:Sector("Autofarms")
 local TeleportsCat = FunctionsCategory:Sector("Teleports")
 
-AutofarmsCat:Cheat("Checkbox","Spam Quest", function(State)
+AutofarmsCat:Cheat("Checkbox","Spam Quest", function(state)
 		if state then
 _G.spamquests = true
 
@@ -20,9 +20,10 @@ Event:FireServer(A_1)
 end
      else
       _G.spamquests = true
-end)
+	end
+	end)
 
-AutofarmsCat:Cheat("Checkbox","Auto Strength", function(State)
+AutofarmsCat:Cheat("Checkbox","Auto Strength", function(sate)
 		if state then
 _G.autoStrength = true
 
@@ -33,9 +34,10 @@ Event:FireServer(A_1)
 end
      else
       _G.autoStrength = true
+end
 end)
 		
-AutofarmsCat:Cheat("Checkbox","Auto Endurance", function(State)
+AutofarmsCat:Cheat("Checkbox","Auto Endurance", function(state)
 		if state then
 _G.autoEndurance = true
 
@@ -46,9 +48,10 @@ Event:FireServer(A_1)
 end
      else
       _G.autoEndurance = true
-end)
+			end
+			end)
 			
-AutofarmsCat:Cheat("Checkbox","Auto Psychic", function(State)
+AutofarmsCat:Cheat("Checkbox","Auto Psychic", function(state)
 		if state then
 _G.autoPsychic = true
 
@@ -59,4 +62,5 @@ Event:FireServer(A_1)
 end
      else
       _G.autoPsychic = true
-end)
+				end
+				end)
