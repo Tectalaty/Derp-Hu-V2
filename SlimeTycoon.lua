@@ -1,3 +1,5 @@
+local Finity = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tectalaty/Derp-Hu-V2/master/FinityUILib"))()
+
 local FinityWindow = Finity.new(true)
 FinityWindow.ChangeToggleKey(Enum.KeyCode.Semicolon)
 
