@@ -141,7 +141,21 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-747.975
 		if Option == "Sand"  then
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1521.15637, 58.5062027, -1990.9646, 0.258864343, 0, 0.965913713, 0, 1, 0, -0.965913713, 0, 0.258864343)
 			end
-		
+		if Option == "Tornado"  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1517.43994, 53.737896, -1721.62439, 0.642909288, 0, 0.765942335, 0, 1, 0, -0.765942335, 0, 0.642909288)
+		end
+		if Option == "Sharks"  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1281.22644, 44.100174, 833.431213, 0.866007268, -0, -0.500031412, 0, 1, -0, 0.500031412, 0, 0.866007268)
+		end
+		if Option == "Big Shark"  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(794.927734, 52.2444077, 717.326355, 0.866007268, -0, -0.500031412, 0, 1, -0, 0.500031412, 0, 0.866007268)
+			end
+		if Option == "Jail Cell"  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1592.3186, 52.4794769, 855.570496, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+			end
+		if Option == "Prison Pool"  then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1767.56909, 51.9326096, 634.270325, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+			end
 end, {
 	options = {
 		"Ambulance",
@@ -150,6 +164,11 @@ end, {
 		"Crates",
 		"Factory",
 		"Toxic Factory",
-		"Sand"
+		"Sand",
+		"Tornado",
+		"Sharks",
+		"Big Shark",
+		"Jail Cell",
+		"Prison Pool"
 	}
 })
