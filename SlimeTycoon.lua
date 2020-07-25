@@ -7,7 +7,7 @@ local FunctionsCategory = FinityWindow:Category("Functions")
 local CreditsCategory = FinityWindow:Category("Credits")
 
 local MoneyCat = FunctionsCategory:Sector("Money")
-local CreditCat = FunctionsCategory:Sector("Credits")
+local CreditCat = CreditsCategory:Sector("Credits")
 
 MoneyCat:Cheat("Button", "Inf Money", function()
 local A_1 = math.huge
