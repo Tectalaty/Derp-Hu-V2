@@ -17,4 +17,11 @@ local Event = game:GetService("ReplicatedStorage").EnterCode
 Event:FireServer(A_1, A_2)
 end)
 
+MoneyCat:Cheat("Button", "-Inf Money", function()
+local A_1 = -9e9
+local A_2 = "Code1"
+local Event = game:GetService("ReplicatedStorage").EnterCode
+Event:FireServer(A_1, A_2)
+end)
+
 CreditCat:Cheat("Label", "Trash Vk")
