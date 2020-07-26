@@ -2,6 +2,7 @@ local Finity = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tectal
 
 local FinityWindow = Finity.new(true)
 FinityWindow.ChangeToggleKey(Enum.KeyCode.Semicolon)
+game:GetService("CoreGui").FinityUI.Container.Size = UDim2.new(0, 700, 0, 350)
 
 local FunctionsCategory = FinityWindow:Category("Functions")
 local CreditsCategory = FinityWindow:Category("Credits")
